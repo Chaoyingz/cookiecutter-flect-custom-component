@@ -1,5 +1,5 @@
 import "./index.css";
 
-import Tag from "./components/tag";
+import Button from "./components/button.tsx";
 
-export { Tag };
+export { Button };

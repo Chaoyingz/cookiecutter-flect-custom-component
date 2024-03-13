@@ -1,8 +1,8 @@
-interface TagProps {
+interface ButtonProps {
     text: string;
 }
 
-const Button = (props: TagProps) => {
+const Button = (props: ButtonProps) => {
     return <button className="bg-red-300 text-red-900">{props.text}</button>;
 };
 
